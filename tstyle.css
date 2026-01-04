@@ -1,0 +1,34 @@
+.article {
+  background-color: blue;
+  color: white;
+  margin: 20px;
+  padding: 15px 12px;
+  border: 2px solid black;
+  display: inline-block;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: -4px 5px 2px gray;
+}
+#list {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+.book {
+  border: 2px solid #872bff;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 3px 3px 6px gray;
+}
+.pic {
+  background-image: url('https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/blogmtHSsbHQE76po9PkqlnmHn2OwN5aWtmL.jpg');
+  background-size: cover;
+  background-position: right bottom;
+  height: 500px;
+  width: 75%;
+  border: 2px solid black;
+  border-radius: 12px;
+}

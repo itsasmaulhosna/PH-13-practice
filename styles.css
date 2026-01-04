@@ -1,0 +1,6 @@
+.article {
+  border: 4px solid #872bff;
+  width: 300px;
+  margin: 20px;
+  box-shadow: 2px 4px 5px gray;
+}
