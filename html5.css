@@ -1,0 +1,80 @@
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+
+  justify-content: center;
+  background-color: lightgray;
+}
+nav ul li {
+  list-style-type: none;
+  margin-right: 20px;
+  font-size: 18px;
+}
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #87726d;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+.hero-section img {
+  width: 100%;
+  height: 600px;
+  border-radius: 10px;
+}
+.hero-section p {
+  font-size: 18px;
+  color: white;
+}
+.hero-section button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: aqua;
+  border: none;
+  cursor: pointer;
+}
+
+.card {
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 1, 0, 0.1);
+  background-color: lightgray;
+}
+.card img {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.card-container {
+  display: flex;
+  gap: 20px;
+}
+.card button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: aqua;
+  border: none;
+  cursor: pointer;
+}
+.card:hover {
+  background-color: #ccf;
+}
+.card-section p {
+  font-size: 18px;
+  color: #876cfa;
+}
+table,
+th,
+tr {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+}
